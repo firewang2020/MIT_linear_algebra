@@ -107,18 +107,18 @@ $$
 
 现在，我们还有一个问题，线性方程组 $Ax=b$ 在什么情况下有解？
 
-首先我们考虑对于任意的 $n$ 维列向量 $x$，当 $x$ 变动时， $Ax$ 也在变动，当 $x$ 取遍所有的 $n$ 维列向量时，$Ax$ 就能取遍所有 $A$ 的列向量的线性组合，也就是说，所有的 $Ax$ 就构成了 $A$ 的列向量张成的线性空间 $V=span\{{\alpha_{1},\alpha_{2},{\cdots},\alpha_{n}}\}$.
+首先我们考虑对于任意的 $n$ 维列向量 $x$，当 $x$ 变动时， $Ax$ 也在变动，当 $x$ 取遍所有的 $n$ 维列向量时，$Ax$ 就能取遍所有 $A$ 的列向量的线性组合，也就是说，所有的 $Ax$ 就构成了 $A$ 的列向量张成的线性空间 $V=span\{\alpha_{1},\alpha_{2},{\cdots},\alpha_{n}\}$.
 
 因此
 
 $$
-Ax=b \text{有解} \Leftrightarrow b\in span{\{\alpha _1 ,\alpha _2 ,\cdots ,\alpha _n}\}.
+Ax=b \text{有解} \Leftrightarrow b\in span\{\alpha _1 ,\alpha _2 ,\cdots ,\alpha _n\}.
 $$
 
 又由于
 
 $$
-b\in span{\{\alpha _1 ,\alpha _2 ,\cdots ,\alpha _n}\} \Leftrightarrow rank(A)=rank(A,b)
+b\in span\{\alpha _1 ,\alpha _2 ,\cdots ,\alpha _n\} \Leftrightarrow rank(A)=rank(A,b)
 $$
 
 因此我们也就得出了
