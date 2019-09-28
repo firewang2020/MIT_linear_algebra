@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: lsybr2014@163.com
 description: "dive into machine learning."
 keyword: "machine learning, python, "
-url: "https://firewang2020.github.io"          # your host, for absolute URL
+url: "https://firewang2020.github.io/MIT_linear_algebra"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/firewang2020/firewang2020.github.io.git" # you code repository
+github_repo: "https://github.com/firewang2020/firewang2020.github.io/MIT_linear_algebra.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
